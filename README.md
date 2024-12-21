@@ -26,7 +26,7 @@ VankSpace es una aplicación web diseñada para ayudar a las personas a llevar u
 ## Estructura del proyecto
 
 ```
-VankShop/
+VankSpace/
 ├── index.html       # Página principal
 ├── styles/          # Archivos CSS
 ├── scripts/         # Archivos JavaScript
