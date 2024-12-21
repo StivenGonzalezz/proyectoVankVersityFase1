@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VankShop</title>
+    <link rel="shortcut icon" href="../vankLogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/chatia.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <section class="titulo">
+            <img src="../vankLogo.jpeg" alt="Logo de vank">
+            <h1>Space</h1>
+        </section>
+    </header>
+
+    <main>
+        <aside class="aside">
+            <nav class="nav">
+                <ul>
+                    <li><button class="navBtn" onclick="window.location.href = './main.html'">Inicio</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './gastos.html'">Gastos</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './deudas.html'">Deudas</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './ahorros.html'">Ahorros</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './chatia.html'">VankI</button></li>
+                    <li><button class="navBtn" onclick="chatiaObj.closeSecction()">Cerrar sesion</button></li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="chatia">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <img src="../images/VankI.webp" alt="Foto de perfil de VankI" class="profile-pic" />
+                    <h2 class="chat-title">VankI</h2>
+                </div>
+                <div class="chat-box" id="chatBox">
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="chatInput" autocomplete="off" placeholder="Escribe un mensaje..." />
+                    <button id="sendBtn">Enviar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../scripts/chatia.js"></script>
+</body>
+</html>

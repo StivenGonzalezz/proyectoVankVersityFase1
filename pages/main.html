@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VankShop</title>
+    <link rel="shortcut icon" href="../vankLogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <section class="titulo">
+            <img src="../vankLogo.jpeg" alt="Logo de vank">
+            <h1>Space</h1>
+        </section>
+    </header>
+
+    <main>
+        <aside class="aside">
+            <nav class="nav">
+                <ul>
+                    <li><button class="navBtn" onclick="window.location.href = './main.html'">Inicio</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './gastos.html'">Gastos</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './deudas.html'">Deudas</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './ahorros.html'">Ahorros</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './chatia.html'">VankI</button></li>
+                    <li><button class="navBtn" onclick="mainObj.closeSecction()">Cerrar sesion</button></li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="welcome">
+            <h2>Bienvenido a VankSpace</h2>
+            <p>Esta aplicación está diseñada para ayudarte a manejar mejor tu dinero. Aquí podrás organizar tus gastos, controlar tus deudas y planificar tus ahorros de manera sencilla y eficiente.</p>
+            <p>Explora las opciones del menú para comenzar a tomar el control de tus finanzas.</p>
+            <p>Si tienes algunda duda con con respecto a algo no dudes en hablar con VankI, nuestra IA integrada.</p>
+        </section>
+    </main>
+    <script src="../scripts/main.js"></script>
+</body>
+</html>

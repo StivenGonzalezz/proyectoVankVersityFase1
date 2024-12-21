@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: "Merriweather", serif;
+}
+
+header {
+    background-color: #ffdc00;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.titulo img {
+    max-width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 900;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ffdc00;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #222;
+    color: white;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+button {
+    background-color: #ffdc00;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e5c700;
+}
+
+.back-btn {
+    margin-top: 20px;
+    background-color: #444;
+    color: white;
+}

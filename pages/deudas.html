@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VankShop</title>
+    <link rel="shortcut icon" href="../vankLogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/deudas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <section class="titulo">
+            <img src="../vankLogo.jpeg" alt="Logo de vank">
+            <h1>Space</h1>
+        </section>
+    </header>
+
+    <main>
+        <aside class="aside">
+            <nav class="nav">
+                <ul>
+                    <li><button class="navBtn" onclick="window.location.href = './main.html'">Inicio</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './gastos.html'">Gastos</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './deudas.html'">Deudas</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './ahorros.html'">Ahorros</button></li>
+                    <li><button class="navBtn" onclick="window.location.href = './chatia.html'">VankI</button></li>
+                    <li><button class="navBtn" onclick="deudasObj.closeSecction()">Cerrar sesion</button></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="container">
+            <h1 class="header">Gasta con responsabilidad</h1>
+            <div class="goals" id="debtsContainer">
+                <!-- <div class="goal-card">
+                    <div class="goal-title">tu meta</div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 100%;"></div>
+                    </div>
+                    <div class="progress-label">100%</div>
+                    <div class="button-group">
+                        <button class="btn eliminar">Eliminar</button>
+                        <button class="btn abonar">Abonar</button>
+                    </div>
+                </div> -->
+            </div>
+            <button class="add-button" onclick="window.location.href = '../pages/crearDeuda.html'">+</button>
+        </section>
+    </main>
+    <script src="../scripts/deudas.js"></script>
+</body>
+</html>

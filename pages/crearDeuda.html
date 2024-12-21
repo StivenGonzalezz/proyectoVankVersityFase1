@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Meta</title>
+    <link rel="stylesheet" href="../styles/crearDeuda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="titulo">
+            <img src="../vankLogo.jpeg" alt="Logo de vank">
+            <h1>Space</h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Crear nueva deuda</h2>
+            <form id="deudaForm" accept="#" method="post">
+                <label for="metaNombre">Nombre de la deuda:</label>
+                <input type="text" id="deudaNombre" name="deudaNombre" placeholder="Ejemplo: Pago de alquiler" required>
+                
+                <label for="metaMonto">Monto Objetivo:</label>
+                <input type="number" id="deudaMonto" name="deudaMonto" placeholder="Ejemplo: 1000" required>
+                
+                <button type="submit" class="btn">Crear Meta</button>
+            </form>
+            <button class="back-btn" onclick="window.location.href='./deudas.html'">Volver</button>
+        </section>
+    </main>
+
+    <script src="../scripts/crearDeuda.js"></script>
+</body>
+</html>

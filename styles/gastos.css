@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: #ffdc00;
+  color: white;
+  text-align: center;
+}
+
+html {
+  font-family: "Merriweather", serif;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Merriweather", serif;
+}
+
+.titulo img {
+  max-width: 80px;
+  height: auto;
+}
+
+.titulo h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: black;
+  font-weight: 900;
+}
+
+.nav {
+  background-color: #ffdc00;
+  position: fixed;
+  left: 0;
+  top: 5vh;
+  height: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.nav ul li {
+  margin: 7em 0;
+}
+
+.navBtn {
+  background: none;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  color: black;
+}
+
+.gastos-section {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #333;
+  border-radius: 8px;
+  color: white;
+}
+
+.gastos-section h2 {
+  text-align: center;
+  color: #ffdc00;
+}
+
+.gastos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.gastos-table th, .gastos-table td {
+  border: 1px solid #ffdc00;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.gastos-table th {
+  background-color: #444;
+  color: #ffdc00;
+}
+
+.gastos-table td {
+  background-color: #555;
+  color: white;
+}
+
+#total-monto {
+  font-weight: bold;
+  color: #ffdc00;
+}
+
+.add-btn {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  background-color: #ffdc00;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background-color: #e6c700;
+}
