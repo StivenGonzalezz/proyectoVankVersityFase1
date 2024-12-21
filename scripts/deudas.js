@@ -79,10 +79,10 @@ class Deudas {
       this.updateUsers(this.user);
     }
   
-    closeSecction() {
-      alert("Cerrando sesion, Hasta pronto 😁");
+    closeSession() {
+      alert("Cerrando sesión, ¡Hasta pronto! 😁");
       localStorage.removeItem("currentUser");
-      window.location.href = "./index.html";
+      window.location.href = '../index.html';
     }
 
     updateUsers(local){

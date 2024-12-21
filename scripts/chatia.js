@@ -10,7 +10,7 @@ class Chatia {
     const userJson = localStorage.getItem("currentUser");
     if (!userJson) {
       alert("Primero debes iniciar sesión antes de acceder a la página");
-      window.location.href = './index.html';
+      window.location.href = '../index.html';
     }
 
     this.user = JSON.parse(userJson);
@@ -25,7 +25,7 @@ class Chatia {
   closeSession() {
     alert("Cerrando sesión, ¡Hasta pronto! 😁");
     localStorage.removeItem("currentUser");
-    window.location.href = './index.html';
+    window.location.href = '../index.html';
   }
 
   handleKeyUp(event) {

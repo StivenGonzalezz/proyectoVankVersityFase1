@@ -109,11 +109,11 @@ class Gastos {
         this.updateTotal();
     }
 
-    closeSecction() {
-        alert("Cerrando sesión, Hasta pronto 😁");
+    closeSession() {
+        alert("Cerrando sesión, ¡Hasta pronto! 😁");
         localStorage.removeItem("currentUser");
-        window.location.href = "./index.html";
-    }
+        window.location.href = '../index.html';
+      }
 
     updateUsers(local){
         const users = JSON.parse(localStorage.getItem("users"))

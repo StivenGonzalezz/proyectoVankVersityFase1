@@ -7,10 +7,10 @@ class Main {
     }
   }
 
-  closeSecction(){
-    alert("Cerrando sesion, Hasta pronto 😁")
-    localStorage.removeItem("currentUser")
-    window.location.href = './index.html'
+  closeSession() {
+    alert("Cerrando sesión, ¡Hasta pronto! 😁");
+    localStorage.removeItem("currentUser");
+    window.location.href = '../index.html';
   }
 }
 

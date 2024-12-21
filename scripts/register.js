@@ -22,7 +22,7 @@ class register {
       users.push(local);
       localStorage.setItem("users", JSON.stringify(users));
       alert("Cuenta creada exitosamente, Ahora puedes iniciar sesion");
-      window.location.href = "./index.html";
+      window.location.href = "../index.html";
     }
   }
 }

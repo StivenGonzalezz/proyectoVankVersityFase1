@@ -30,7 +30,7 @@ class login {
 
     if (user.password === local.password) {
       localStorage.setItem("currentUser", JSON.stringify(user))
-      window.location.href = "./main.html";
+      window.location.href = "./pages/main.html";
     }
   }
 }
