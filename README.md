@@ -1,6 +1,6 @@
 ﻿# VankSpace
 
-VankShop es una aplicación web diseñada para ayudar a las personas a llevar un control más sencillo y eficiente de sus finanzas personales. Este proyecto tiene como objetivo proporcionar una herramienta intuitiva y accesible para registrar y gestionar gastos, deudas y ahorros en un solo lugar.
+VankSpace es una aplicación web diseñada para ayudar a las personas a llevar un control más sencillo y eficiente de sus finanzas personales. Este proyecto tiene como objetivo proporcionar una herramienta intuitiva y accesible para registrar y gestionar gastos, deudas y ahorros en un solo lugar.
 
 ## Características
 
